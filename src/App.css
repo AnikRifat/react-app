@@ -1,7 +1,12 @@
 .App {
   text-align: center;
 }
-
+.container {
+  padding: 5rem;
+}
+.container .h1 {
+  color: aquamarine;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -33,6 +38,6 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(2000deg);
   }
 }
